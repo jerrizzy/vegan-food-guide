@@ -1,25 +1,56 @@
 <!DOCTYPE html>
+
 <html>
 
+<!-- created title, 
+linked stylesheet to css,
+linked index.js to html -->
+
 <head>
-	<meta charset=“utf-8” />
-	<title>Vegan Restaurant Guide</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
+    
+    <meta charset=“utf-8” />
+    <title>Vegan Restaurant Guide</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js" defer></script>
 
+</head> 
+
+<!-- created body to create a basic skeliton to show 
+    what information the page will have -->
 <body>
-	<header>
-	 	<h3>Vegan Restaurant Guide</h3>
-	</header>
+    
+    <header>
+        
+        <h3>Vegan Restaurant Guide</h3>
+
+    </header>
 
 
-<div id =“vegan-recipe”>
+    <!-- Side Display -->
+<div id =“vegan-recipe-display”>
 </div>
 
+    <!-- created dropdown button that will display categories once you click it,
+    first made id called dropdown,
+    then created label "category" which will have cuisine,
+    created option for users to choose cuisine  -->
 
+<div id="drop-down">
+    
+    <label for="category">cuisine</label>
+    
+    <select name="category" id="category">
+        
+        <option value="mexican">mexican</option>
+        
 
+    </select>
 
+</div>
+
+</div>
 
 </body>
 
 </html>
+
