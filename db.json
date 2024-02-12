@@ -1,112 +1,168 @@
 {
-    "mexican": [
-  
-      {
-          "id": 1,
-          "name": "Fajita-Style Vegan Tofu Burrito",
-          "image": "https://img.freepik.com/premium-photo/fajitastyle-vegan-tofu-burrito_198067-110026.jpg",
-          "ingredients": ["2 tablespoons vegan margarine", 
-          "½ yellow squash, thinly sliced",
-          "½ green bell pepper, diced",
-         " ½ yellow onion, diced",
-         " ½ cup diced jalapeno peppers",
-          "1 (12 ounce) package cubed tofu",
-          "3 tablespoons soy sauce",
-          "1 tablespoon garlic powder",
-          "5 flour tortillas",
-          "2 tablespoons vegan sour cream"]
-        },
-        
-        {
-          "id": 2,
-          "name": "Quinoa Black Bean Tacos",
-          "image": "https://www.allrecipes.com/thmb/fuDLy-PeAZEyXRRJ47_JnIGD-Y8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6263176-ba2ecc1b13ec4377a4f29a4b340d2705.jpg",
-          "ingredients": ["1 teaspoon olive oil",
-          "1 onion, chopped",
-          "2 (8 ounce) cans tomato sauce",
-          " 1 ½ cups water",
-          " ½ cup quinoa",
-          "1 (1 ounce) envelope taco seasoning mix",
-          "2 (14.5 ounce) cans black beans, rinsed and drained",
-          "24 corn tortillas"]
-          
-        },
-        {
-          "id": 3,
-          "name": "Vegan Sweet Potato and Bean Burritos",
-          "image": "https://www.allrecipes.com/thmb/ZU4mzSTA9rWThXwMcdJkG09ORfI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7111531-bca7421d8ca74020afb8b38fd8e4d011.jpg",
-          "ingredients": ["1 cup sweet potato, peeled and cut into 1/4-inch cubes",
-          " ½ cup yellow onion, sliced",
-          " 2 tablespoons olive oil",
-          " 1 tablespoon taco seasoning mix",
-          " ½ cup vegan refried beans",
-          " 4 large vegan tortillas",
-          "  1 cup cooked brown rice",
-          " ¼ cup salsa"
-          ]
-         },
-         
-         {
-           "id": 4,
-           "name": "Vegan Air Fryer Taquitos",
-           "image": "https://www.allrecipes.com/thmb/FGZIfZHcqSoGea4-TZEHi5KnH9k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7774116-e30e29642b7548a58353e1838ea88108.jpg",
-           "ingredients": ["1 large russet potato, peeled",
-           "1 teaspoon plant-based butter (such as Country Crock)",
-           "2 tablespoons diced onion",
-           " 1 clove garlic, minced",
-           "¼ cup plant based butter (such as Country Crock)",
-           "2 tablespoons unsweetened, plain almond milk",
-           "salt and ground black pepper to taste",
-           "6 corn tortillas",
-           "avocado oil cooking spray"]
-        },
-        {
-          "id": 5,
-          "name": "Vegan Crunchwrap Supreme",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/vegan-crunchwraps-1647287536.jpeg?crop=0.726530612244898xw:1xh;center,top&resize=980:*",
-          "ingredients": ["10-inch burrito-size flour tortillas",
-          "Vegan Taco Meat (recipe below)",
-          "Vegan Nacho Cheese Sauce (recipe below)",
-          "Tostada Shells (store-bought, or homemade recipe below)",
-          "Vegan Sour Cream (store-bought, or homemade recipe below)",
-         " Guacamole (recipe below)",
-         " Chopped tomatoes",
-         " Salsa of choice",
-          "Shredded iceberg lettuce",
-          "Cilantro leaves"]
-          
-        }
+  "mexican": [
+    {
+      "id": 1,
+      "name": "Fajita-Style Vegan Tofu Burrito",
+      "image": "https://img.freepik.com/premium-photo/fajitastyle-vegan-tofu-burrito_198067-110026.jpg",
+      "ingredients": [
+        "2 tablespoons vegan margarine", 
+        "½ yellow squash, thinly sliced",
+        "½ green bell pepper, diced",
+        "½ yellow onion, diced",
+        "½ cup diced jalapeno peppers",
+        "1 (12 ounce) package cubed tofu",
+        "3 tablespoons soy sauce",
+        "1 tablespoon garlic powder",
+        "5 flour tortillas",
+        "2 tablespoons vegan sour cream"
       ]
-      
+    },
+    {
+      "id": 2,
+      "name": "Quinoa Black Bean Tacos",
+      "image": "https://www.allrecipes.com/thmb/fuDLy-PeAZEyXRRJ47_JnIGD-Y8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6263176-ba2ecc1b13ec4377a4f29a4b340d2705.jpg",
+      "ingredients": [
+        "1 teaspoon olive oil",
+        "1 onion, chopped",
+        "2 (8 ounce) cans tomato sauce",
+        "1 ½ cups water",
+        "½ cup quinoa",
+        "1 (1 ounce) envelope taco seasoning mix",
+        "2 (14.5 ounce) cans black beans, rinsed and drained",
+        "24 corn tortillas"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vegan Sweet Potato and Bean Burritos",
+      "image": "https://www.allrecipes.com/thmb/ZU4mzSTA9rWThXwMcdJkG09ORfI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7111531-bca7421d8ca74020afb8b38fd8e4d011.jpg",
+      "ingredients": [
+        "1 cup sweet potato, peeled and cut into 1/4-inch cubes",
+        "½ cup yellow onion, sliced",
+        "2 tablespoons olive oil",
+        "1 tablespoon taco seasoning mix",
+        "½ cup vegan refried beans",
+        "4 large vegan tortillas",
+        "1 cup cooked brown rice",
+        "¼ cup salsa"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vegan Air Fryer Taquitos",
+      "image": "https://www.allrecipes.com/thmb/FGZIfZHcqSoGea4-TZEHi5KnH9k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7774116-e30e29642b7548a58353e1838ea88108.jpg",
+      "ingredients": [
+        "1 large russet potato, peeled",
+        "1 teaspoon plant-based butter (such as Country Crock)",
+        "2 tablespoons diced onion",
+        "1 clove garlic, minced",
+        "¼ cup plant based butter (such as Country Crock)",
+        "2 tablespoons unsweetened, plain almond milk",
+        "salt and ground black pepper to taste",
+        "6 corn tortillas",
+        "avocado oil cooking spray"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vegan Crunchwrap Supreme",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/vegan-crunchwraps-1647287536.jpeg?crop=0.726530612244898xw:1xh;center,top&resize=980:*",
+      "ingredients": [
+        "10-inch burrito-size flour tortillas",
+        "Vegan Taco Meat (recipe below)",
+        "Vegan Nacho Cheese Sauce (recipe below)",
+        "Tostada Shells (store-bought, or homemade recipe below)",
+        "Vegan Sour Cream (store-bought, or homemade recipe below)",
+        "Guacamole (recipe below)",
+        "Chopped tomatoes",
+        "Salsa of choice",
+        "Shredded iceberg lettuce",
+        "Cilantro leaves"
+      ]
     }
-         
-           
-           
-           
-
-           
-           
-           
-           
-           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+  ],
+  "japanese": [
+    {
+      "id": 6,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 8,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 10,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    }
+  ],
+  "japanese": [
+    {
+      "id": 6,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 8,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    },
+    {
+      "id": 10,
+      "name": "",
+      "image": "",
+      "ingredients": [
+        ""
+      ]
+    }
+  ]
+}
