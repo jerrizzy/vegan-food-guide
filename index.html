@@ -35,22 +35,49 @@ linked index.js to html -->
     then created label "category" which will have cuisine,
     created option for users to choose cuisine  -->
 
+<p id="cuisine-type"></p>
+
 <div id="drop-down">
+
+    
     
     <label for="category">cuisine</label>
     
     <select name="category" id="category">
         
         <option value="mexican">mexican</option>
-        
+        <option value="japanese">japanese</option>
+        <option value="italian">italian</option>
+        <option value="Mediterranean">Mediterranean</option>
 
     </select>
 
 </div>
+<!-- Created this for the information and image that will display 
+    once you click on any of the recipe on the screen,
+    also created a like button -->
+<div id="recipe-detail">
+    
+    <img class="detail-image" src="" alt="image"/>
+    <h2 class="name"></h2>
+    <h3 class="ingredients"></h3>
+    <button class="btn">Like</button>
 
 </div>
+
+<form id="vegan-recipe">
+    <h4>Add New Recipe</h4>
+    <label for="new-name">Name: </label>
+    <input type="text" name="name" id="new-name" />
+    <label for="new-image">Image: </label>
+    <input type="text" name="image" id="new-image" />    
+    <label for="new-ingredients">Ingredients: </label>
+    <textarea name="new-ingredients" name="new-ingredients" id="new-ingredients"></textarea>
+    <input type="submit" id='submit-button' value="Create" />
+  </form>
 
 </body>
 
 </html>
+
 
