@@ -1,0 +1,24 @@
+#meal-display{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-image: round;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rba(0, 0, 0 0.79);
+    margin: 2rem 0;
+}
+
+.meal-img{
+    width: 100%;
+    display: block;
+}
+
+.meal-name{
+    padding: 1.5rem 0.5rem;
+}
+
+.meal-name h3{
+    font-size: 1.4rem;
+}
+
