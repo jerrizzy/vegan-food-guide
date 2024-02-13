@@ -1,24 +1,54 @@
-#meal-display{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    border-image: round;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 4px 21px -12px rba(0, 0, 0 0.79);
-    margin: 2rem 0;
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+.grid-item {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
 }
 
-.meal-img{
-    width: 100%;
-    display: block;
+#popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
 }
 
-.meal-name{
-    padding: 1.5rem 0.5rem;
+.popupContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
 }
-
-.meal-name h3{
-    font-size: 1.4rem;
+  
+#popupTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
-
+  
+#popupImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+#popupIngredients {
+    list-style: none;
+    padding: 0;
+}
+  
+#closeButton {
+    margin-top: 10px;
+}
