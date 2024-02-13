@@ -21,25 +21,10 @@ linked index.js to html -->
     
         <header>
             
-            <h3>Vegan Restaurant Guide</h3>
+            <h3>Vegan Food Guide</h3>
     
         </header>
-    
-    
-        <!-- grid Display -->
-    <div id =“meal-display”>
 
-        <div class="meal-img">
-            <img src="" alt=""/>
-        </div>
-
-        <div class="meal-name">
-            <h3>Meal Name</h3>
-            <a href="" class="recipe-button">Get Recipe</a>
-        </div>
-
-    </div>
-    
         <!-- created dropdown button that will display categories once you click it,
         first made id called dropdown,
         then created label "category" which will have cuisine,
@@ -74,6 +59,25 @@ linked index.js to html -->
         <button class="btn">Like</button>
     
     </div>
+    
+        <!-- grid Display -->
+        <div id="food-menu">
+        
+        </div>
+
+        <div id="popupContainer" style="display: none;">
+            <div class="popupContent">
+              <h2 id="popupTitle"></h2>
+              <img id="popupImage" src="" alt="Recipe Image">
+              <ul id="popupIngredients"></ul>
+            </div>
+            <button id="closeButton">Close</button>
+          </div>
+
+        <div id="food-detail">
+            <img class="food-image" src="" alt="Insert Name Here" />
+            <h3 class="food-name">Insert food Here</h3>
+          </div>
     
     <form id="vegan-recipe">
         <h4>Add New Recipe</h4>
