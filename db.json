@@ -1,83 +1,440 @@
 {
-    "mexican": [
-      {
-        "id": 1,
-        "name": "Fajita-Style Vegan Tofu Burrito",
-        "image": "https://img.freepik.com/premium-photo/fajitastyle-vegan-tofu-burrito_198067-110026.jpg",
-        "ingredients": [
-          "2 tablespoons vegan margarine", 
-          "½ yellow squash, thinly sliced",
-          "½ green bell pepper, diced",
-          "½ yellow onion, diced",
-          "½ cup diced jalapeno peppers",
-          "1 (12 ounce) package cubed tofu",
-          "3 tablespoons soy sauce",
-          "1 tablespoon garlic powder",
-          "5 flour tortillas",
-          "2 tablespoons vegan sour cream"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Quinoa Black Bean Tacos",
-        "image": "https://www.allrecipes.com/thmb/fuDLy-PeAZEyXRRJ47_JnIGD-Y8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6263176-ba2ecc1b13ec4377a4f29a4b340d2705.jpg",
-        "ingredients": [
-          "1 teaspoon olive oil",
-          "1 onion, chopped",
-          "2 (8 ounce) cans tomato sauce",
-          "1 ½ cups water",
-          "½ cup quinoa",
-          "1 (1 ounce) envelope taco seasoning mix",
-          "2 (14.5 ounce) cans black beans, rinsed and drained",
-          "24 corn tortillas"
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Vegan Sweet Potato and Bean Burritos",
-        "image": "https://www.allrecipes.com/thmb/ZU4mzSTA9rWThXwMcdJkG09ORfI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7111531-bca7421d8ca74020afb8b38fd8e4d011.jpg",
-        "ingredients": [
-          "1 cup sweet potato, peeled and cut into 1/4-inch cubes",
-          "½ cup yellow onion, sliced",
-          "2 tablespoons olive oil",
-          "1 tablespoon taco seasoning mix",
-          "½ cup vegan refried beans",
-          "4 large vegan tortillas",
-          "1 cup cooked brown rice",
-          "¼ cup salsa"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Vegan Air Fryer Taquitos",
-        "image": "https://www.allrecipes.com/thmb/FGZIfZHcqSoGea4-TZEHi5KnH9k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7774116-e30e29642b7548a58353e1838ea88108.jpg",
-        "ingredients": [
-          "1 large russet potato, peeled",
-          "1 teaspoon plant-based butter (such as Country Crock)",
-          "2 tablespoons diced onion",
-          "1 clove garlic, minced",
-          "¼ cup plant based butter (such as Country Crock)",
-          "2 tablespoons unsweetened, plain almond milk",
-          "salt and ground black pepper to taste",
-          "6 corn tortillas",
-          "avocado oil cooking spray"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Vegan Crunchwrap Supreme",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/vegan-crunchwraps-1647287536.jpeg?crop=0.726530612244898xw:1xh;center,top&resize=980:*",
-        "ingredients": [
-          "10-inch burrito-size flour tortillas",
-          "Vegan Taco Meat (recipe below)",
-          "Vegan Nacho Cheese Sauce (recipe below)",
-          "Tostada Shells (store-bought, or homemade recipe below)",
-          "Vegan Sour Cream (store-bought, or homemade recipe below)",
-          "Guacamole (recipe below)",
-          "Chopped tomatoes",
-          "Salsa of choice",
-          "Shredded iceberg lettuce",
-          "Cilantro leaves"
-        ]
-      }
-    ]}
+
+  "mexican": [
+    {
+      "id": 1,
+      "category":"mexican",
+      "name": "Fajita-Style Vegan Tofu Burrito",
+      "image": "https://img.freepik.com/premium-photo/fajitastyle-vegan-tofu-burrito_198067-110026.jpg",
+      "ingredients": [
+        "2 tablespoons vegan margarine", 
+        "½ yellow squash, thinly sliced",
+        "½ green bell pepper, diced",
+        "½ yellow onion, diced",
+        "½ cup diced jalapeno peppers",
+        "1 (12 ounce) package cubed tofu",
+        "3 tablespoons soy sauce",
+        "1 tablespoon garlic powder",
+        "5 flour tortillas",
+        "2 tablespoons vegan sour cream"
+      ]
+    },
+    {
+      "id": 2,
+      "category":"mexican",
+      "name": "Quinoa Black Bean Tacos",
+      "image": "https://www.allrecipes.com/thmb/fuDLy-PeAZEyXRRJ47_JnIGD-Y8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6263176-ba2ecc1b13ec4377a4f29a4b340d2705.jpg",
+      "ingredients": [
+        "1 teaspoon olive oil",
+        "1 onion, chopped",
+        "2 (8 ounce) cans tomato sauce",
+        "1 ½ cups water",
+        "½ cup quinoa",
+        "1 (1 ounce) envelope taco seasoning mix",
+        "2 (14.5 ounce) cans black beans, rinsed and drained",
+        "24 corn tortillas"
+      ]
+    },
+    {
+      "id": 3,
+      "category":"mexican",
+      "name": "Vegan Sweet Potato and Bean Burritos",
+      "image": "https://www.allrecipes.com/thmb/ZU4mzSTA9rWThXwMcdJkG09ORfI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7111531-bca7421d8ca74020afb8b38fd8e4d011.jpg",
+      "ingredients": [
+        "1 cup sweet potato, peeled and cut into 1/4-inch cubes",
+        "½ cup yellow onion, sliced",
+        "2 tablespoons olive oil",
+        "1 tablespoon taco seasoning mix",
+        "½ cup vegan refried beans",
+        "4 large vegan tortillas",
+        "1 cup cooked brown rice",
+        "¼ cup salsa"
+      ]
+    },
+    {
+      "id": 4,
+      "category":"mexican",
+      "name": "Vegan Air Fryer Taquitos",
+      "image": "https://www.allrecipes.com/thmb/FGZIfZHcqSoGea4-TZEHi5KnH9k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7774116-e30e29642b7548a58353e1838ea88108.jpg",
+      "ingredients": [
+        "1 large russet potato, peeled",
+        "1 teaspoon plant-based butter (such as Country Crock)",
+        "2 tablespoons diced onion",
+        "1 clove garlic, minced",
+        "¼ cup plant based butter (such as Country Crock)",
+        "2 tablespoons unsweetened, plain almond milk",
+        "salt and ground black pepper to taste",
+        "6 corn tortillas",
+        "avocado oil cooking spray"
+      ]
+    },
+    {
+      "id": 5,
+      "category":"mexican",
+      "name": "Vegan Crunchwrap Supreme",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/vegan-crunchwraps-1647287536.jpeg?crop=0.726530612244898xw:1xh;center,top&resize=980:*",
+      "ingredients": [
+        "10-inch burrito-size flour tortillas",
+        "Vegan Taco Meat (recipe below)",
+        "Vegan Nacho Cheese Sauce (recipe below)",
+        "Tostada Shells (store-bought, or homemade recipe below)",
+        "Vegan Sour Cream (store-bought, or homemade recipe below)",
+        "Guacamole (recipe below)",
+        "Chopped tomatoes",
+        "Salsa of choice",
+        "Shredded iceberg lettuce",
+        "Cilantro leaves"
+      ]
+    }
+  ],
+
+
+
+
+
+  "japanese": [
+    {
+      "id": 6,
+      "category":"japanese",
+      "name": "Spicy Tomato Sushi Rolls",
+      "image": "https://www.forksoverknives.com/uploads/spicy-tomato-sushi-rolls-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "1½ cups low-sodium vegetable broth",
+        "¾ cup dry short grain brown rice",
+        "1½ cups frozen riced butternut squash",
+        "4 roma tomatoes, seeded and chopped (2 cups)",
+       " 1 tablespoon reduced-sodium tamari",
+        "1 teaspoon grated fresh ginger",
+        "1 tablespoon sriracha sauce",
+        "2 teaspoons tahini",
+        "2 tablespoons brown rice vinegar",
+        "1 tablespoon pure maple syrup",
+        "4 8-inch toasted nori sheets",
+        "½ of a medium avocado, peeled and sliced",
+        "1 Persian cucumber, seeded and cut lengthwise into ¼-inch strips (5½ oz.)",
+        "2 carrots, coarsely shredded (1 cup)",
+       " 4 scallions (green onions), trimmed to 6 inches and cut lengthwise into strips"
+      ]
+    },
+    {
+      "id": 7,
+      "category":"japanese",
+      "name": "Miso Tofu Waffles with Kasha Salad",
+      "image": "https://www.forksoverknives.com/uploads/Miso-Tofu-Waffles-with-Kasha-Salad-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "¼ cup rice vinegar",
+        "1½ tablespoons white miso",
+        "1½ tablespoons maple syrup",
+        "1 14-oz. package extra-firm tofu, drained and cut into 4 slabs",
+       " 2 cups thinly sliced napa cabbage",
+        "1 cup cooked kasha",
+        "1 cup sliced cucumber",
+        "½ cup thinly sliced scallions",
+        "½ cup diced red or orange bell pepper"
+      ]
+    },
+    {
+      "id": 8,
+      "category":"japanese",
+      "name": "Vegan Soba Noodle Salad",
+      "image": "https://www.forksoverknives.com/uploads/Soba-Noodle-Salad-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "3 tablespoons vegan yuzu ponzu, such as Marukan brand",
+       " 3 tablespoons brown rice vinegar",
+        "2 teaspoons grated fresh ginger",
+       " 6 oz. dry soba noodles",
+      "  1 cup matchstick-cut carrots",
+        "1 cup matchstick-cut red or yellow bell pepper",
+        "½ of a bunch Japanese chives (garlic chives) or regular chives, cut into 2-inch pieces (1 cup)"
+      ]
+    },
+    {
+      "id": 9,
+      "category":"japanese",
+      "name": "Creamy Vegan Ramen",
+      "image": "https://www.forksoverknives.com/uploads/Creamy-Vegetable-Ramen-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "2 cups thinly sliced fresh trumpet mushrooms",
+       " 3 shiitake mushrooms, stemmed and cut into thin strips (1 cup)",
+       " ½ cup thinly sliced onion",
+       " 6 cloves garlic, minced",
+        "1 tablespoon grated fresh ginger",
+        "4 cups vegetable broth",
+        "1 small sweet potato, cut into 1-inch pieces (2 cups)",
+        "1 cup thinly sliced carrots",
+        "6 oz. dry ramen noodles",
+       " 1 cup unsweetened, unflavored plant-based milk",
+        "3 tablespoons yellow miso paste",
+       " 12 oz. firm tofu, cut into ¾-inch cubes",
+       "1 cup sugar snap peas, halved",
+      "1 tablespoon brown rice vinegar",
+      "¼ cup thinly sliced scallions",
+      "¼ of a sheet toasted nori, cut into thin strips (optional)",
+      "Spicy togarashi seasoning, to taste (optional)"
+      ]
+    },
+    {
+      "id": 10,
+      "category":"japanese",
+      "name": "Vegan Miso Soup with Noodles and Tofu",
+      "image": "https://www.forksoverknives.com/uploads/miso-soup-for-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "4 cups chopped fresh wild mushrooms, such as shiitake, maitake, oyster, and/or trumpet",
+        "4 scallions (green onions), thinly sliced",
+        "2 tablespoons brown rice vinegar",
+        "1½ teaspoons grated fresh ginger",
+        "2 cloves garlic, minced",
+        "2 teaspoons kelp granules",
+        "2 pinches Japanese togarashi spice blend (optional)",
+        "5 oz. dry soba or udon noodles",
+        "1 carrot, cut into matchsticks (1 cup)",
+        "1 bell pepper, cut into matchsticks (1 cup)",
+        "1 cup trimmed snow peas",
+        "7 oz. firm tofu, cut into ¾-inch cubes",
+        "1 tablespoon miso paste",
+        "¼ cup cilantro leaves",
+        "½ of a toasted nori sheet, cut into thin 2-inch strips (optional)"
+      ]
+    }
+  ],
+  
+  
+  
+  
+  
+  "italian": [
+    {
+      "id": 11,
+      "category": "italian",
+      "name": "Vegan Potato Gnocchi with Mushrooms and Greens",
+      "image": "https://www.forksoverknives.com/uploads/Potato-Gnocchi-with-Mushrooms-and-Greens-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=1",
+      "ingredients": [
+        "2 lb. russet potatoes, peeled and cut into 1-inch pieces",
+        "1 tablespoon flaxseed meal",
+        "1 cup white whole wheat flour, plus more for dusting",
+        "½ teaspoon regular or sodium-free baking powder",
+        "Sea salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "1½ lb. assorted fresh mushrooms, sliced (9 cups)",
+        "4 cups fresh baby spinach or a mix of baby spinach and arugula",
+        "½ cup chopped fresh parsley",
+        "⅓ cup tahini",
+        "¼ cup lemon juice",
+        "3 cloves garlic",
+        "Crushed red pepper (optional)"
+      ]
+        
+        
+        
+        
+        
+    
+    },
+    {
+      "id": 12,
+      "category": "italian",
+      "name": "Vegan Spaghetti Marinara with Lentil Balls",
+      "image": "https://www.forksoverknives.com/uploads/spaghetti-meatballs-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "1 cup dry brown lentils", 
+        "1 8-oz. package button or cremini mushrooms", 
+        "1 onion",
+        "3 small cloves garlic", 
+        "¼ cup whole wheat flour",
+        "3 tablespoons reduced-sodium tamari or soy sauce",
+        "2 tablespoons no-salt-added tomato paste",
+        "1 tablespoon nutritional yeast",
+        "1 teaspoon dried oregano", 
+        "1 teaspoon onion powder",
+        "Sea salt and freshly ground black pepper", 
+        "1 lb. dry whole grain spaghetti",
+        "6 cups purchased oil-free marinara sauce",
+        "2 Tbsp. chopped fresh basil"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "italian",
+      "name": "Vegan Minestrone Soup with Potatoes and Kale",
+      "image": "https://www.forksoverknives.com/uploads/potato-kale-minestrone-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "1½ lb. russet potatoes, cut into 1-inch pieces",
+        "1 onion, finely chopped (1 cup)",
+        "1 cup chopped fresh mushrooms",
+        "6 cloves garlic, minced",
+        "1 teaspoon dried oregano leaves",
+        "4 cups vegetable stock",
+        "1 bay leaf",
+        "3 cups finely chopped kale, stems removed",
+        "1 15-oz. can cannellini or other white beans, rinsed and drained (1½ cups)",
+        "Sea salt and freshly ground black pepper"
+              ]
+    },
+    {
+      "id": 14,
+      "category": "italian",
+      "name": "King Oyster Vegan Cioppino",
+      "image": "https://www.forksoverknives.com/uploads/King-Oyster-Cioppino-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "1 lb. fresh king oyster mushrooms and/or regular oyster mushrooms, cut into 1-inch pieces",
+        "1 cup chopped onion",
+        "1 cup chopped celery (leaves reserved for garnish)",
+        "1 bulb fennel, cored and thinly sliced (fronds reserved for garnish)",
+        "6 medium cloves garlic, minced",
+        "1 cup low-sodium vegetable broth",
+        "¼ cup white wine or low-sodium vegetable broth",
+        "2 cups cherry tomatoes, halved",
+        "1 tablespoon reduced-sodium seafood seasoning (such as Old Bay)",
+        "3 15-oz. cans no-salt-added chickpeas, undrained",
+        "1 14.5-oz. can no-salt-added diced fire-roasted tomatoes",
+        "1 teaspoon chopped fresh thyme",
+        "1 bay leaf",
+        "1 tablespoon lemon juice",
+        "Freshly ground black pepper, to taste",
+        "4 slices whole grain baguette, toasted",
+        "Lemon wedges"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "italian",
+      "name": "Individual Grilled Pesto Pizzas",
+      "image": "https://www.forksoverknives.com/uploads/Indiviaul-grilled-pesto-pizzas-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "2 to 2½ cups white whole wheat flour",
+        "1½ teaspoons instant yeast",
+        "1 teaspoon pure cane sugar",
+        "½ teaspoon sea salt",
+        "1 15-oz. can no-salt-added cannellini beans, rinsed and drained (1½ cups)",
+        "1 tablespoon lemon juice",
+        "1 recipe Homemade Vegan Pesto",
+        "½ of a yellow bell pepper, cut into thin strips",
+        "¼ cup chopped red onion",
+        "1½ cups cherry tomatoes, halved",
+        "Crushed red pepper (optional)"
+      ]
+    }
+  ],
+ 
+ 
+ 
+ 
+ 
+  "mediterranean": [
+    {
+      "id": 16,
+      "category":"mediterranean",
+      "name": "Vegan Shawarma with Roasted Cauliflower and Chickpeas",
+      "image": "https://www.forksoverknives.com/uploads/Cauliflower-Shawarma-Bowls-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "¼ cup + 2 tablespoons lemon juice",
+        "2 tablespoons pure maple syrup",
+        "4 cloves garlic, minced",
+        "1½ teaspoons paprika (sweet or hot)",
+        "1 teaspoon ground cumin",
+        "½ teaspoon ground cinnamon",
+        "½ teaspoon ground turmeric",
+        "¼ teaspoon ground coriander",
+        "Sea salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "1 2-lb. head cauliflower, cut into florets (6 cups)",
+        "1 15-oz. can no-salt-added chickpeas, rinsed, drained, and patted dry",
+        "¼ cup tahini",
+        "⅛ teaspoon cayenne pepper",
+        "2 cups hot cooked brown rice",
+        "1 medium cucumber, halved lengthwise and thinly sliced (2 cups)",
+        "2 medium bell peppers, any color, cut into bite-size strips",
+        "½ cup slivered red onion",
+        "Fresh cilantro leaves",
+        "Lemon wedges"
+      ]
+    },
+    {
+      "id": 17,
+      "category":"mediterranean",
+      "name": "Mediterranean Style Pita Pizzas with Quick-Pickled Onions",
+      "image": "https://www.forksoverknives.com/uploads/Mediterranean-Salad-Pizzas.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "½ cup apple cider vinegar",
+        "1 tablespoon pure cane sugar",
+        "1 clove garlic, minced",
+        "1 large red onion, thinly sliced (1 cup)",
+        "¾ cup oil-free hummus",
+        "4 6- to 7-inch whole wheat pita bread rounds, toasted",
+        "1 10-oz. package heirloom grape tomatoes, halved",
+        "1 5-oz. package baby mixed salad greens",
+        "2 tablespoons chopped toasted walnuts"
+        
+      ]
+    },
+    {
+      "id": 18,
+      "category":"mediterranean",
+      "name": "Vegan Potato Gnocchi with Mushrooms and Greens",
+      "image": "https://www.forksoverknives.com/uploads/Potato-Gnocchi-with-Mushrooms-and-Greens-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "2 lb. russet potatoes, peeled and cut into 1-inch pieces",
+        "1 tablespoon flaxseed meal",
+        "1 cup white whole wheat flour, plus more for dusting",
+        "½ teaspoon regular or sodium-free baking powder",
+        "Sea salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "1½ lb. assorted fresh mushrooms, sliced (9 cups)",
+        "4 cups fresh baby spinach or a mix of baby spinach and arugula",
+        "½ cup chopped fresh parsley",
+        "⅓ cup tahini",
+        "¼ cup lemon juice",
+        "3 cloves garlic",
+        "Crushed red pepper (optional)"
+      ]
+    },
+    {
+      "id": 19,
+      "category":"mediterranean",
+      "name": "Cherry Tomato Bruschetta Tartines",
+      "image": "https://www.forksoverknives.com/uploads/Cherry-Tomato-Bruschetta-Tartines-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "1 15-oz. can cannellini beans, rinsed and drained (1½ cups cooked)",
+        "1½ cups chopped, peeled, and seeded cucumber",
+        "½ cup sliced scallions",
+        "½ cup cherry tomatoes, sliced",
+        "2 tablespoons thinly sliced basil",
+        "Sea salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "½ cup whole fresh basil leaves, plus more for garnish",
+        "1 tablespoon lemon juice",
+        "1 clove garlic",
+        "4 slices sprouted whole grain bread, lightly toasted"
+      ]
+    },
+    {
+      "id": 20,
+      "category":"mediterranean",
+      "name": "Sicilian Rice Balls with Mushrooms and Peas",
+      "image": "https://www.forksoverknives.com/uploads/Sicilian-Rice-Balls-with-Mushrooms-and-Peas-wordpress.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=700&dpr=2",
+      "ingredients": [
+        "4 cups cubed Yukon gold potatoes",
+        "2 cups cooked brown rice",
+        "2 cups oil-free store-bought or homemade marinara sauce",
+        "¼ cup unsweetened, unflavored plant-based milk",
+        "¼ cup + 1 tablespoon nutritional yeast (optional)",
+        "3 cloves garlic, minced",
+        "Sea salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "2 cups fresh cremini or button mushrooms, trimmed and chopped",
+        "1 cup chopped yellow onion",
+        "1 cup bread crumbs",
+        "½ cup fresh or frozen green peas",
+        "2 teaspoon finely chopped fresh basil or 1 teaspoon dried basil, crushed",
+        "1 teaspoon finely chopped fresh thyme or ½ teaspoon dried thyme, crushed",
+        "Red pepper flakes (optional)"
+      ]
+    }
+  ]
+}
+        
+
+
+
+
+

@@ -9,83 +9,77 @@ linked index.js to html -->
 <head>
     
     <meta charset=“utf-8” />
-    <title>Vegan Restaurant Guide</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script defer src="./index.js"></script>
+    <title>Vegan Recipe Guide</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js" defer></script>
 
 </head> 
 
 <!-- created body to create a basic skeliton to show 
     what information the page will have -->
-    <body>
+<body>
     
-        <header>
-            
-            <h3>Vegan Restaurant Guide</h3>
-    
-        </header>
-    
-    
-        <!-- grid Display -->
-    <div id =“meal-display”>
+    <header>
+        
+        <h3>Vegan Recipe Guide</h3>
 
-        <div class="meal-img">
-            <img src="" alt=""/>
-        </div>
+    </header>
 
-        <div class="meal-name">
-            <h3>Meal Name</h3>
-            <a href="" class="recipe-button">Get Recipe</a>
-        </div>
 
-    </div>
+    <!-- Side Display -->
+<div id =“vegan-recipe-display”>
+</div>
+
+    <!-- created dropdown button that will display categories once you click it,
+    first made id called dropdown,
+    then created label "category" which will have cuisine,
+    created option for users to choose cuisine  -->
+
+<p id="cuisine-type"></p>
+
+<div id="drop-down">
+
     
-        <!-- created dropdown button that will display categories once you click it,
-        first made id called dropdown,
-        then created label "category" which will have cuisine,
-        created option for users to choose cuisine  -->
     
-    <p id="cuisine-type"></p>
+    <label for="category">cuisine</label>
     
-    <div id="drop-down">
-    
+    <select name="category" id="category">
         
-        
-        <label for="category">cuisine</label>
-        
-        <select name="category" id="category">
-            
-            <option value="mexican">mexican</option>
-            <option value="japanese">japanese</option>
-            <option value="italian">italian</option>
-            <option value="Mediterranean">Mediterranean</option>
+        <option value="mexican">mexican</option>
+        <option value="japanese">japanese</option>
+        <option value="italian">italian</option>
+        <option value="mediterranean">Mediterranean</option>
+
+    </select>
+
+</div>
+<!-- Created this for the information and image that will display 
+    once you click on any of the recipe on the screen,
+    also created a like button -->
+<div id="recipe-detail">
     
-        </select>
-    
-    </div>
-    <!-- Created this for the information and image that will display 
-        once you click on any of the recipe on the screen,
-        also created a like button -->
-    <div id="recipe-detail">
-        
-        <img class="detail-image" src="" alt="image"/>
-        <h2 class="name"></h2>
-        <h3 class="ingredients"></h3>
-        <button class="btn">Like</button>
-    
-    </div>
-    
-    <form id="vegan-recipe">
-        <h4>Add New Recipe</h4>
-        <label for="new-name">Name: </label>
-        <input type="text" name="name" id="new-name" />
-        <label for="new-image">Image: </label>
-        <input type="text" name="image" id="new-image" />    
-        <label for="new-ingredients">Ingredients: </label>
-        <textarea name="new-ingredients" name="new-ingredients" id="new-ingredients"></textarea>
-        <input type="submit" id='submit-button' value="Create" />
-      </form>
-    
-    </body>
-    
-    </html>
+    <img class="detail-image" src="" alt="image"/>
+    <h2 class="name"></h2>
+    <h3 class="ingredients"></h3>
+    <button class="btn">Like</button>
+
+</div>
+
+<form id="vegan-recipe">
+    <h4>Add New Recipe</h4>
+    <label for="new-name">Name: </label>
+    <input type="text" name="name" id="new-name" />
+    <label for="new-category">category</label>
+    <input type="text" name="category" id="new-category"/>
+    <label for="new-image">Image: </label>
+    <input type="text" name="image" id="new-image" />    
+    <label for="new-ingredients">Ingredients: </label>
+    <textarea name="new-ingredients" name="new-ingredients" id="new-ingredients"></textarea>
+    <input type="submit" id='submit-button' value="Create" />
+  </form>
+
+</body>
+
+</html>
+
+
