@@ -19,7 +19,7 @@ const foodFunction = (data) => {
     let div = document.querySelector("#food-menu")
 
     let button = document.createElement("button")
-    button.setAttribute("id", "getIngredientsButton")
+    button.setAttribute("class", "grid-item");
     button.textContent = "Get Ingredients"
 
     div.append(img, h3, button)
@@ -30,19 +30,21 @@ const foodFunction = (data) => {
 })}
 
 const handleIngredientButton = (data) => {
-        let popupContainer = document.getElementById("popupContainer")
-        let popupTitle = document.getElementById("popupTitle")
-        let popupImage = document.getElementById("popupImage")
-        let popupIngredients = document.getElementById("popupIngredients")
-        let closeButton = document.getElementById("closeButton")
+    let popupContainer = document.getElementById("popupContainer")
+    let popupTitle = document.getElementById("popupTitle")
+    let popupImage = document.getElementById("popupImage")
+    let popupIngredients = document.getElementById("popupIngredients")
 
-        // Update the popup content
-      popupTitle.textContent = data.name;
-      popupImage.src = data.image;
-      popupIngredients.innerHTML = data.ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("");
-      console.log(data.ingredients)
-      // Show the popup
-      popupContainer.style.display = "block";
+    // Update the popup content
+    popupTitle.textContent = data.name;
+    popupImage.src = data.image;
+
+    let ingredientsArray = Array.isArray(data.ingredients) ? data.ingredients : [data.ingredients];
+    popupIngredients.innerHTML = ingredientsArray.map((ingredient) => `<li>${ingredient}</li>`).join("");
+    // popupIngredients.innerHTML = data.ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("");
+    
+    // Show the popup
+    popupContainer.style.display = "block";
 }
 
 document.getElementById("closeButton").addEventListener("click", () => {
@@ -50,6 +52,19 @@ document.getElementById("closeButton").addEventListener("click", () => {
     // Hide the popup
     popupContainer.style.display = "none";
 });
+
+let form = document.getElementById("new-recipe")
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+
+    let newRecipe = {
+        name: e.target.name.value,
+        image: e.target.image.value,
+        ingredients: e.target["new-ingredients"].value,
+    }
+    console.log(newRecipe)
+    foodFunction(newRecipe)
+})
    
 
 displayFoods()

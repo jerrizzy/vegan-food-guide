@@ -1,12 +1,15 @@
-#food-menu{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    border-image: round;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0 0.79);
-    margin: 2rem 0;
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+.grid-item {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
 }
 
 #popupContainer {
