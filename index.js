@@ -12,3 +12,24 @@ fetch("http://localhost:3000/mexican")
     }
 })
 
+document.addEventListener("DOMContentLoaded", function() {
+    const likeButton = document.querySelector(".btn"); 
+    
+    function handleLikeButtonClick(event) {
+      const recipeName = document.querySelector(".name").textContent; 
+      
+      let likes = localStorage.getItem(recipeName) || 0; 
+      likes++;
+      
+      localStorage.setItem(recipeName, likes);
+      
+      
+      alert(`You liked ${recipeName}. Total likes: ${likes}`);
+    }
+    likeButton.addEventListener("click", handleLikeButtonClick);
+  });
+    
+    
+      
+      
+      
