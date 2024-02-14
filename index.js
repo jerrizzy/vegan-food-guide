@@ -97,6 +97,7 @@ form.addEventListener("submit", (e) => {
 })
 
 
+
 let category = document.getElementById("category");
 
 category.addEventListener("change", () => {
