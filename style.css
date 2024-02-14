@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    }
+}
     
 .grid-item {
     flex-basis: calc(33.33% - 10px);
@@ -52,3 +52,39 @@
 #closeButton {
     margin-top: 10px;
 }
+
+.grid-food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-food img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#drop-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+   border: none; 
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.grid-item{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 1em;
+
+}
+    
