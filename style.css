@@ -55,15 +55,22 @@
 
 .grid-food{
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .grid-food img {
-    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height: 200px;
+    width: 100%;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
