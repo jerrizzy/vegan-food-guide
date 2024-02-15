@@ -38,11 +38,11 @@ const foodFunction = (data) => {
   console.log(likes)
 
 
-  likeButton.textContent = `👍 ${likes}`; // Update button text with initial likes count
+  likeButton.textContent = `${likes} Like`; // Update button text with initial likes count
 
   likeButton.addEventListener("click", () => {
     likes = parseInt(likes) + 1; // Increment likes count
-    likeButton.textContent = `👍 ${likes}`; // Update button text
+    likeButton.textContent = `${likes} Like`; // Update button text
 
     localStorage.setItem(data.name, likes); // Save updated likes count to local storage
   });
