@@ -19,10 +19,30 @@
         what information the page will have -->
     <body>
         
+        
+
+
         <header>
             
             <h3>Vegan Food Guide</h3>
 
+            <p id="cuisine-type"></p>
+
+            <h5>
+            <div id="drop-down">
+                
+                <label1 for="category">Cuisine</label1>
+                <select name="category" id="category">
+                    
+                    <option value="japanese">Japanese</option>
+                    <option value="italian">Italian</option>
+                    <option value="mediterranean">Mediterranean</option>
+                    <option value="mexican">Mexican</option>
+                
+                </select>
+                
+            </div>
+        </h5>
         </header>
 
 
@@ -34,21 +54,21 @@
         then created label "category" which will have cuisine,
         created option for users to choose cuisine  -->
 
-        <p id="cuisine-type"></p>
+        <!-- <p id="cuisine-type"></p>
 
         <div id="drop-down">
             
-            <label for="category">Cuisine</label>
+            <label1 for="category">Cuisine</label1>
             <select name="category" id="category">
                 
-                <option value="mexican">Mexican</option>
                 <option value="japanese">Japanese</option>
                 <option value="italian">Italian</option>
                 <option value="mediterranean">Mediterranean</option>
+                <option value="mexican">Mexican</option>
             
             </select>
             
-        </div>
+        </div> -->
 
         <!-- Created this for the information and image that will display 
             once you click on any of the recipe on the screen,
@@ -64,23 +84,25 @@
                 <h2 id="popupTitle"></h2>
                 <img id="popupImage" src="" alt="Recipe Image">
                 <ul id="popupIngredients"></ul>
+                <button id="closeButton">Close</button>
             </div>
-            <button id="closeButton">Close</button>
+            
         </div>
 
-
+    <div class="form-div">
         <form id="vegan-recipe">
             <h4>Add New Recipe</h4>
-            <label for="new-name">Name: </label>
-            <input type="text" name="name" id="new-name" />
-            <label for="new-category">Cuisine: </label>
-            <input type="text" name="category" id="new-category"/>
-            <label for="new-image">Image: </label>
-            <input type="text" name="image" id="new-image" />    
-            <label for="new-ingredients">Ingredients: </label>
-            <textarea name="new-ingredients" id="new-ingredients"></textarea>
+            <!-- <label for="new-name">Name: </label> -->
+            <input placeholder="Name" type="text" name="name" id="new-name" />
+            <!-- <label for="new-category">Cuisine: </label> -->
+            <input placeholder="Category" type="text" name="category" id="new-category"/>
+            <!-- <label for="new-image">Image: </label> -->
+            <input placeholder="Image" type="text" name="image" id="new-image" />    
+            <!-- <label for="new-ingredients">Ingredients: </label> -->
+            <textarea placeholder="Ingredients" name="new-ingredients" id="new-ingredients"></textarea>
             <input type="submit" id='submit-button' value="Create" />
         </form>
+    </div>
 
     </body>
 
