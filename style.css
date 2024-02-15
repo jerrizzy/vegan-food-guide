@@ -10,6 +10,7 @@
     background-color: #ccc;
     padding: 20px;
     text-align: center;
+    
 }
 
 #popupContainer {
@@ -65,26 +66,101 @@
     max-width: 100%;
     height: 200px;
     margin-bottom: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px;
 }
 
+
+
 #drop-down {
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+    align-items: center;
+  }
+  
+  #drop-down::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  #drop-down:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+  
+  #drop-down {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
+  }
+      
+
+
+
 
 .btn {
-   border: none; 
-   background-color: transparent;
-   cursor: pointer;
-}
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+  }
+  
+  .btn::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .btn:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+  
 
-.grid-item{
+
+  .grid-item{
     cursor: pointer;
     box-shadow: 10px 10px 10px black;
     border-radius: 1em;
 
 }
-    
+
+header h3 { 
+    text-align: center;
+    font-size: 35px;
+} 
+
+
