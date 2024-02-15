@@ -28,7 +28,7 @@ const foodFunction = (data) => {
     h3.textContent = data.name;
     
     let button = document.createElement("button")
-    button.setAttribute("class", "grid-item");
+    // button.setAttribute("class", "grid-item");
     button.textContent = "Get Ingredients"
 
     let likeButton = document.createElement("button");
@@ -94,6 +94,7 @@ form.addEventListener("submit", (e) => {
         category: e.target.category.value,
     }
     foodFunction(newRecipe)
+    form.reset(); // clears our form text field after submit
 })
 
 
@@ -105,14 +106,3 @@ category.addEventListener("change", () => {
 
 // Call displayFoods initially with the default cuisine
 displayFoods(category.value);
-
-
-// const likeButton = document.querySelector(".btn");
-// let likes = 0;
-// let foodId = 0;
-
-// likeButton.addEventListener("click", () => {
-//     likes = likes + 1
-
-//     fetch()
-// })
