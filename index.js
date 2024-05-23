@@ -4,7 +4,7 @@ const displayFoods = (cuisine) => {
     // Clear existing food items
     foodMenu.innerHTML = "";
 
-    fetch(`https://jerrizzy.github.io/vegan-api/${cuisine}`)
+    fetch(`https://jerrizzy.github.io/vegan-api/db.json/${cuisine}`)
     .then((response) => response.json())
     .then((foods) => {
         for (let food of foods) {
